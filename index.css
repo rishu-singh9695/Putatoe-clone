@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #1da9b9;
+    width: 100%;
+    height: 80px;
+}
+
+.tagLine {
+    display: block;
+    position: relative;
+    bottom: 5px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logoName {
+    color: white;
+    margin-left: 10px;
+}
+
+.logoName h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.search input {
+    font-size: 12px;
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 4px 4px 4px 4px;
+    padding-left: 16px;
+    outline: none;
+}
+
+.search .searchicon {
+    background-color: white;
+    border-radius: 4px 4px 4px 4px;
+    height: 35px;
+    position: relative;
+    top: -35px;
+    margin-left: 356px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.search {
+    margin-left: 250px;
+    margin-top: 30px;
+
+}
+
+.icons {
+    margin-left: 40px;
+    color: white;
+}
+
+.cart_count {
+    font-size: 14px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 6px;
+    top: 18px;
+    right: 330px;
+}
+
+#noti_count {
+    right: 290px;
+}
+
+.loginbtn .btn {
+    margin-left: 170px;
+    color: #2095A2;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    color: white;
+}
+
+
+
+
+
+/* navbar css end */
+
+
+/* main css start */
+
+.category-topbar {
+    background-color: #2095A2;
+    padding: 7px 0px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.bgwhite img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.category-topbar .col-lg-2 div {
+    padding: 5px;
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    margin: auto;
+    margin-bottom: 9px;
+}
+
+.w-50 {
+    width: 105% !important;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 60px;
+    width: 60px;
+    outline: none;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 40px;
+    color: black;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 40px;
+    color: black;
+}
+
+
+
+.all_section {
+    color: #007092;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.popular_products_section {
+    padding: 15px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.popular_products_section h2,
+.popular_services_section h2 {
+    font-size: 22px;
+    line-height: 30px;
+    display: inline-block;
+    color: #00838f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+
+.owl-item-inner {
+    background: #fff;
+    border-radius: 5px;
+    color: #6a6b6d;
+    /* height: 210px; */
+    height: 230px;
+    text-align: center;
+    border: 1px solid #00838f;
+    /* margin-right: 30px; */
+}
+
+
+.owl-carousel.owl-drag .owl-item {
+    touch-action: pan-y;
+    user-select: none;
+}
+
+.owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+}
+
+.border-remove {
+    border: none !important;
+    transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+.border-remove:hover{
+    transform:scale(1.1) ;
+}
+
+.img img{
+    width: 150px;
+}
+
+    .footer {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: #00838f;
+        height: 230px;
+        margin-top: 10px;
+    }
+
+    .footimg img{
+        width: 100px;
+    }
+
+    .footinfo{
+        color: white;
+    }
+
+    .footimg{
+        margin-left: 20px;
+    }
+
+    .foot{
+        display: flex;
+    }
+    .rightfoot{
+        color: white;
+        margin-left: 500px;
+        margin-top: 40px;
+
+    }
